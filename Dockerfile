@@ -1,2 +1,2 @@
 FROM debian:bookworm-slim
-RUN apt update && apt install curl wget tar zip unzip
+RUN apt update && apt install -y curl wget tar zip unzip
